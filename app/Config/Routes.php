@@ -14,20 +14,21 @@ $routes->get('auth/users', 'AuthController::users');
 $routes->delete('auth/users', 'AuthController::users');
 
 
-$routes->get('company', 'CompanyController::index');
-$routes->post('company', 'CompanyController::create');
-$routes->put('company/(:num)', 'CompanyController::upgrade/$1');
-$routes->delete('company/(:num)', 'CompanyController::deleteOne/$1');
-$routes->get('company/find/(:num)', 'CompanyController::find/$1');
-$routes->get('company/generateqr/(:num)', 'CompanyController::generateqr/$1');
+
+$routes->post('children/register', 'ChildrenController::register');
+$routes->put('children/update/(:num)', 'ChildrenController::upgrade/$1');
+$routes->get('children/find/(:num)', 'ChildrenController::find/$1');
+$routes->get('children/display/', 'ChildrenController::display');
+$routes->get('children/delete/(:num)', 'ChildrenController::remove/$1');
 
 
-$routes->get('marcaje', 'HorasExtrasController::display');
-$routes->post('marcaje', 'HorasExtrasController::create');
-$routes->put('marcaje/(:num)', 'HorasExtrasController::upgrade/$1');
-$routes->delete('marcaje/(:num)', 'HorasExtrasController::deleteOne/$1');
-$routes->get('marcaje/find/(:num)', 'HorasExtrasController::find/$1');
-$routes->get('marcaje/excel', 'HorasExtrasController::generateExcelReport');
+
+$routes->post('receta/register', 'RecetaController::register');
+$routes->post('receta/update/(:num)', 'RecetaController::upgrade/$1');
+$routes->get('receta/find/(:num)', 'RecetaController::find/$1');
+$routes->get('receta/display/', 'RecetaController::display');
+$routes->get('receta/delete/(:num)', 'RecetaController::remove/$1');
+$routes->get('receta/dia/', 'RecetaController::dia');
 
 
 $routes->get('send-email', 'EmailController::send_email');

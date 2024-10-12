@@ -29,7 +29,7 @@ class Database extends Config
         'hostname' => '127.0.0.1', // Puedes probar con 'localhost' o '127.0.0.1'
         'username' => 'root',      // Asegúrate de que el usuario es 'root'
         'password' => 'root',          // Si tu usuario root no tiene contraseña, déjalo vacío
-        'database' => 'marcaje',   // Nombre de la base de datos
+        'database' => 'recetas',   // Nombre de la base de datos
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

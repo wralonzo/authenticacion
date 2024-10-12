@@ -1,0 +1,317 @@
+CRITICAL - 2024-10-11 01:33:35 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:33:38 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:33:52 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:34:14 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:35:46 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:38:18 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:38:49 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:39:09 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:40:33 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:41:36 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:42:38 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:45:22 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:45:50 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:46:18 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:46:35 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:46:37 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:47:10 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:47:27 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:48:39 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 01:50:00 --> Error: Class "App\Models\UsersModel" not found
+[Method: POST, Route: auth/register]
+in APPPATH/Controllers/AuthController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\AuthController->register()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 18:04:29 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "register'"
+[Method: POST, Route: children/register%27]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('children/register\'')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('children/register\'')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 18:05:11 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "register'"
+[Method: POST, Route: children/register%27]
+in SYSTEMPATH/Router/Router.php on line 737.
+ 1 SYSTEMPATH/Router/Router.php(204): CodeIgniter\Router\Router->checkDisallowedChars('children/register\'')
+ 2 SYSTEMPATH/CodeIgniter.php(834): CodeIgniter\Router\Router->handle('children/register\'')
+ 3 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:38:38 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:39:21 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+ERROR - 2024-10-11 19:39:24 --> mysqli_sql_exception: Unknown column 'padre' in 'where clause' in /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Database/BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php(22): CodeIgniter\BaseModel->findAll()
+#7 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+#8 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+#9 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 /Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 /Applications/XAMPP/xamppfiles/htdocs/recetas/system/rewrite.php(44): require_once('/Applications/X...')
+#14 {main}
+CRITICAL - 2024-10-11 19:39:24 --> Error: Call to a member function getResult() on false
+[Method: GET, Route: children/display]
+in SYSTEMPATH/Model.php on line 287.
+ 1 SYSTEMPATH/BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH/Controllers/ChildrenController.php(22): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:39:54 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:40:00 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:41:14 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')
+CRITICAL - 2024-10-11 19:41:37 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: children/display]
+in APPPATH/Controllers/ChildrenController.php on line 19.
+ 1 APPPATH/Controllers/ChildrenController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', '/Applications/XAMPP/xamppfiles/htdocs/recetas/app/Controllers/ChildrenController.php', 19)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\ChildrenController->display()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChildrenController))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/recetas/public/index.php')

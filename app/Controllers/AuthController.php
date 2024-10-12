@@ -2,9 +2,8 @@
 
 namespace App\Controllers;
 
-use App\Models\UserModel;
+use App\Models\UsersModel;
 use CodeIgniter\RESTful\ResourceController;
-use CodeIgniter\HTTP\Response;
 use Exception;
 
 class AuthController extends ResourceController
@@ -23,22 +22,19 @@ class AuthController extends ResourceController
                 return $this->fail($this->validator->getErrors());
             }
 
-            $userModel = new UserModel();
-
+            $userModel = new UsersModel();
             $json = $this->request->getJSON();
-
             $data = [
                 'name'          => $json->name ?? null,
                 'email'         => $json->email ?? null,
                 'role'          => $json->role ?? null,
-                'dpi'           => $json->dpi ?? null,
-                'group_id'      => $json->group_id ?? null,
                 'password'      => password_hash($json->password ?? '', PASSWORD_DEFAULT),
             ];
             $userModel->save($data);
-            return $this->respondCreated(['message' => 'User registered successfully', 'statusCode' => 200]);
+            return $this->respondCreated(['message' => 'User registered successfully', 'statusCode' => 201]);
         } catch (Exception $e) {
-            return $this->respondCreated(['message' => $e]);
+            var_dump($e);
+            return $this->respondCreated(['message' => $e, 'statusCode' => 409]);
         }
     }
 
@@ -53,11 +49,12 @@ class AuthController extends ResourceController
             return $this->fail($this->validator->getErrors());
         }
         $json = $this->request->getJSON();
-        $userModel = new UserModel();
-        $user = $userModel->where('dpi', $json->email)->first();
+
+        $userModel = new UsersModel();
+        $user = $userModel->where('email', $json->email)->first();
         if (!$user || !password_verify($json->password, $user['password'])) {
             $response = [
-                'message' => 'Credenciales no válidas',
+                'message' => 'Credenciales no válidas intente de nuevo',
                 'logged' => false,
             ];
             return $this->respondCreated($response);
@@ -75,7 +72,7 @@ class AuthController extends ResourceController
 
     public function users()
     {
-        $userModel = new UserModel();
+        $userModel = new UsersModel();
         $user = $userModel->findAll();
         // Aquí puedes generar un token JWT u otra lógica
         $response = [
@@ -90,7 +87,7 @@ class AuthController extends ResourceController
     public function getUser($id)
     {
         try {
-            $userModel = new UserModel();
+            $userModel = new UsersModel();
             $user = $userModel->find($id);
             $response = [
                 'message' => 'Login successful',
@@ -108,7 +105,7 @@ class AuthController extends ResourceController
     {
         try {
             // Validar que el ID del usuario sea válido
-            $userModel = new UserModel();
+            $userModel = new UsersModel();
             $user = $userModel->find($id);
             if (!$user) {
                 return $this->failNotFound('User not found');
