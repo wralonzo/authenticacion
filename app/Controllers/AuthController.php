@@ -128,6 +128,26 @@ class AuthController extends ResourceController
         return $this->respond($response);
     }
 
+    public function usersRole()
+    {
+        $userModel = new UsersModel();
+        $parametro = $this->request->getGet('app');
+        $parametro2 = $this->request->getGet('role');
+        $user = $userModel
+            ->where('app', $parametro)
+            ->where('role', $parametro2)
+            ->where('status', 1)
+            ->findAll();
+        // Aquí puedes generar un token JWT u otra lógica
+        $response = [
+            'message' => 'Login successful',
+            'logged' => true,
+            'users' => $user
+        ];
+
+        return $this->respond($response);
+    }
+
     public function getUser($id)
     {
         try {

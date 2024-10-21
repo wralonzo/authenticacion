@@ -14,6 +14,7 @@ $routes->get('auth/users', 'AuthController::users');
 $routes->delete('auth/delete/(:num)', 'AuthController::deleteOne/$1');
 $routes->post('auth/forgotPassword', 'AuthController::forgotPassword');
 $routes->get('auth/generate/(:num)', 'AuthController::generatePassword/$1');
+$routes->get('auth/users/role', 'AuthController::usersRole');
 
 
 $routes->get('send-email', 'EmailController::send_email');
