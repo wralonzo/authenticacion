@@ -33,6 +33,7 @@ class AuthController extends ResourceController
             $existingUser = $userModel
                 ->where('app', $json->app)
                 ->where('email', $json->email)
+                ->where('status', 1)
                 ->first();
 
             if ($existingUser) {
@@ -85,6 +86,7 @@ class AuthController extends ResourceController
             $user = $userModel
                 ->where('app', $json->app)
                 ->where('email', $json->email)
+                ->where('status', 1)
                 ->first();
 
             if (!$user || !password_verify($json->password, $user['password'])) {
@@ -112,7 +114,9 @@ class AuthController extends ResourceController
     {
         $userModel = new UsersModel();
         $parametro = $this->request->getGet('app');
-        $user = $userModel->where('app', $parametro)
+        $user = $userModel
+            ->where('app', $parametro)
+            ->where('status', 1)
             ->findAll();
         // Aquí puedes generar un token JWT u otra lógica
         $response = [
@@ -169,7 +173,9 @@ class AuthController extends ResourceController
         try {
             // Validar que el ID del usuario sea válido
             $userModel = new UsersModel();
-            $user = $userModel->find($id);
+            $user = $userModel
+                ->where('status', 1)
+                ->find($id);
             if (!$user) {
                 return $this->failNotFound('Usuario no encontrado');
             }
@@ -191,7 +197,10 @@ class AuthController extends ResourceController
             // Validar que el ID del usuario sea válido
             $json = $this->request->getJSON();
             $userModel = new UsersModel();
-            $user = $userModel->where('email', $json->email)->first();
+            $user = $userModel
+                ->where('email', $json->email)
+                ->where('status', 1)
+                ->first();
             if (!$user) {
                 return $this->failNotFound('Usuario no encontrado');
             }
@@ -231,7 +240,7 @@ class AuthController extends ResourceController
                 return $this->failNotFound('Usuario no encontrado');
             }
             $model->update($id, [
-                "estado" => 0
+                "status" => 0
             ]);
             // Respuesta exitosa con el registro encontrado
             $response = [
