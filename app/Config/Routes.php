@@ -11,7 +11,7 @@ $routes->put('auth/update/(:num)', 'AuthController::updateUser/$1');
 $routes->get('auth/find/(:num)', 'AuthController::getUser/$1');
 $routes->post('auth/login', 'AuthController::login');
 $routes->get('auth/users', 'AuthController::users');
-$routes->delete('auth/delete', 'AuthController::deleteOne');
+$routes->delete('auth/delete/(:num)', 'AuthController::deleteOne/$1');
 $routes->post('auth/forgotPassword', 'AuthController::forgotPassword');
 $routes->get('auth/generate/(:num)', 'AuthController::generatePassword/$1');
 
