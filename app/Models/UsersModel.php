@@ -13,10 +13,11 @@ class UsersModel extends Model
     protected $allowedFields = [
         'email',
         'password',
-        'name',
         'role',
+        'displayName',
+        'app',
         'created_at',
-        'updated_at'
+        'updated_at',
     ];
 
     // Habilitar el uso de timestamps automáticos
