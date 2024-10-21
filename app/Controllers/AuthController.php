@@ -33,7 +33,7 @@ class AuthController extends ResourceController
                 'password'      => password_hash($json->password ?? '', PASSWORD_DEFAULT),
             ];
             $userModel->save($data);
-            return $this->respondCreated(['message' => 'User registered successfully', 'statusCode' => 201]);
+            return $this->respondCreated(['message' => 'Usuario registrado correctamente', 'statusCode' => 201]);
         } catch (Exception $e) {
             return $this->failServerError('Internal servcer error: ' . $e->getMessage());
         }
