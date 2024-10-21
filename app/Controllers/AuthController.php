@@ -12,7 +12,6 @@ class AuthController extends ResourceController
     {
         try {
             $rules = [
-                'name'          => 'required',
                 'role'          => 'required',
                 'email'         => 'required',
                 'displayName'   => 'required',
@@ -27,7 +26,6 @@ class AuthController extends ResourceController
             $userModel = new UsersModel();
             $json = $this->request->getJSON();
             $data = [
-                'name'          => $json->name ?? null,
                 'email'         => $json->email ?? null,
                 'role'          => $json->role ?? null,
                 'displayName'   => $json->displayName ?? null,
