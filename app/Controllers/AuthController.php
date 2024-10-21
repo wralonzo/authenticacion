@@ -25,15 +25,23 @@ class AuthController extends ResourceController
 
             $userModel = new UsersModel();
             $json = $this->request->getJSON();
-            $data = [
-                'email'         => $json->email ?? null,
-                'role'          => $json->role ?? null,
-                'displayName'   => $json->displayName ?? null,
-                'app'           => $json->app ?? null,
-                'password'      => password_hash($json->password ?? '', PASSWORD_DEFAULT),
-            ];
-            $userModel->save($data);
-            return $this->respondCreated(['message' => 'Usuario registrado correctamente', 'statusCode' => 201]);
+
+            $userModel
+                ->where('app', $json->app)
+                ->where('email', $json->email)
+                ->first();
+            if (!$userModel) {
+                $data = [
+                    'email'         => $json->email ?? null,
+                    'role'          => $json->role ?? null,
+                    'displayName'   => $json->displayName ?? null,
+                    'app'           => $json->app ?? null,
+                    'password'      => password_hash($json->password ?? '', PASSWORD_DEFAULT),
+                ];
+                $userModel->save($data);
+                return $this->respondCreated(['message' => 'Usuario registrado correctamente', 'statusCode' => 201,  'status' => true]);
+            }
+            return $this->respondCreated(['message' => 'Usuario ya existe', 'statusCode' => 201, 'status' => false]);
         } catch (Exception $e) {
             return $this->failServerError('Internal servcer error: ' . $e->getMessage());
         }
