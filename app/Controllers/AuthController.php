@@ -30,7 +30,7 @@ class AuthController extends ResourceController
                 ->where('app', $json->app)
                 ->where('email', $json->email)
                 ->first();
-            if ($userModel != null) {
+            if ($userModel == null) {
                 $data = [
                     'email'         => $json->email ?? null,
                     'role'          => $json->role ?? null,
