@@ -14,7 +14,7 @@ class AuthController extends ResourceController
             // Reglas de validación
             $rules = [
                 'role'          => 'required',
-                'email'         => 'required|valid_email',
+                'email'         => 'required',
                 'displayName'   => 'required',
                 'app'           => 'required',
                 'password'      => 'required|min_length[3]'
