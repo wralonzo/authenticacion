@@ -16,6 +16,7 @@ class UsersModel extends Model
         'role',
         'displayName',
         'app',
+        'status',
         'created_at',
         'updated_at',
     ];
