@@ -11,41 +11,62 @@ class AuthController extends ResourceController
     public function register()
     {
         try {
+            // Reglas de validación
             $rules = [
                 'role'          => 'required',
-                'email'         => 'required',
+                'email'         => 'required|valid_email',
                 'displayName'   => 'required',
                 'app'           => 'required',
                 'password'      => 'required|min_length[3]'
             ];
 
+            // Validar las reglas
             if (!$this->validate($rules)) {
                 return $this->fail($this->validator->getErrors());
             }
 
+            // Inicializar el modelo de usuario
             $userModel = new UsersModel();
             $json = $this->request->getJSON();
 
-            $userModel
+            // Verificar si el usuario ya existe
+            $existingUser = $userModel
                 ->where('app', $json->app)
                 ->where('email', $json->email)
                 ->first();
-            if ($userModel == null) {
-                $data = [
-                    'email'         => $json->email ?? null,
-                    'role'          => $json->role ?? null,
-                    'displayName'   => $json->displayName ?? null,
-                    'app'           => $json->app ?? null,
-                    'password'      => password_hash($json->password ?? '', PASSWORD_DEFAULT),
-                ];
-                $userModel->save($data);
-                return $this->respondCreated(['message' => 'Usuario registrado correctamente', 'statusCode' => 201,  'status' => true]);
+
+            if ($existingUser) {
+                // Si el usuario existe, responder con un mensaje
+                return $this->respondCreated([
+                    'message' => 'Usuario ya existe',
+                    'statusCode' => 201, // Conflict
+                    'status' => false
+                ]);
             }
-            return $this->respondCreated(['message' => 'Usuario ya existe', 'statusCode' => 201, 'status' => false]);
+
+            // Preparar los datos para guardar
+            $data = [
+                'email'         => $json->email,
+                'role'          => $json->role,
+                'displayName'   => $json->displayName,
+                'app'           => $json->app,
+                'password'      => password_hash($json->password, PASSWORD_DEFAULT),
+            ];
+
+            // Guardar el nuevo usuario
+            $userModel->save($data);
+
+            // Responder con éxito
+            return $this->respondCreated([
+                'message' => 'Usuario registrado correctamente',
+                'statusCode' => 201,
+                'status' => true
+            ]);
         } catch (Exception $e) {
-            return $this->failServerError('Internal servcer error: ' . $e->getMessage());
+            return $this->failServerError('Internal server error: ' . $e->getMessage());
         }
     }
+
 
     public function login()
     {
